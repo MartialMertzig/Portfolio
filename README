@@ -1,0 +1,53 @@
+# Portfolio WordPress - Thème personnalisé
+
+Ce projet est un portfolio WordPress personnalisé, développé dans le cadre de ma formation / activité professionnelle. Il utilise un thème sur mesure avec des Custom Post Types pour gérer les projets.
+
+## Structure du projet
+
+- `assets/` : Contient les ressources (images, polices, icônes, etc.)
+- `css/` : Feuilles de style supplémentaires
+- `template-part/` : Parties de template réutilisables (ex: composants)
+- `footer.php` : Pied de page du site
+- `functions.php` : Fonctions personnalisées du thème (Custom Post Types, scripts, etc.)
+- `header.php` : En-tête du site
+- `home.php` : Page d’accueil personnalisée
+- `index.php` : Fallback général pour WordPress
+- `screenshot.png` : Aperçu du thème pour l’administration WP
+- `single-projet.php` : Template pour les Custom Post Types "projet"
+- `style.css` : Feuille de style principale + informations du thème
+
+## Fonctionnalités
+
+- Thème WordPress 100% personnalisé (sans builder)
+- Système de Custom Post Types pour les projets
+- Template `single-projet.php` pour l'affichage de chaque projet
+- Page d’accueil dynamique
+- Structure modulaire avec `template-part`
+
+## Prérequis
+
+- PHP >= 7.4 (ou selon la version WordPress)
+- WordPress >= 6.x
+- Un serveur local comme [LocalWP](https://localwp.com/), MAMP, WAMP, ou XAMPP
+- Un accès à la base de données (MySQL ou MariaDB)
+
+## Installation
+
+1. Cloner le repo dans le dossier `wp-content/themes` :
+   ```bash
+   git clone https://github.com/MartialMertzig/Portfolio.git
+   
+2. Activer le thème via l’admin WordPress
+
+3. Importer du contenu ou créer vos projets depuis le back office
+
+## Dépendances
+
+Ce thème n’utilise pas de framework externe, tout est en PHP, HTML, CSS et un peu de JavaScript (si applicable). Il utilise les fonctions natives de WordPress.
+
+## À propos
+
+Ce projet a été réalisé pour :
+
+Me former au développement de thèmes WordPress personnalisés
+Présenter mes projets professionnels/personnels dans un portfolio élégant
